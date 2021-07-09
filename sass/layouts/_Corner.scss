@@ -1,0 +1,52 @@
+.Corner {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 20% 80%;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $color-primary-dark;
+    padding: 4px;
+    &__box {
+        width: 80%;
+    }
+}
+
+.list {
+    background-color: $color-primary-dark;
+    padding: 36px;
+    &__bar {
+        list-style: none;
+        &-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 15px;
+            font-size: 20px;
+            width: 100%;
+            & a {
+                color: $color-white;
+            }
+        }
+        &-item:hover {
+            background-color: #007bff;
+            border-radius: 50px;
+            text-decoration: none;
+        }
+        &-item:visited {
+            background-color: $color-white;
+            color: black;
+        }
+    }
+    &__icon {
+        display: inline;
+        color: $color-white;
+    }
+}
+
+.list a {
+    text-decoration: none;
+}

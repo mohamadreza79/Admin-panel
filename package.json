@@ -1,0 +1,14 @@
+{
+    "name": "admin-panel",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "compile": "node-sass sass/main.scss css/style.css"
+    },
+    "author": "Mohammadreza-fatemi",
+    "license": "ISC",
+    "devDependencies": {
+        "node-sass": "^6.0.1"
+    }
+}
