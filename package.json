@@ -4,7 +4,8 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "compile": "node-sass sass/main.scss css/style.css"
+        "compile": "node-sass sass/main.scss css/style.css",
+        "w": "node-sass sass/main.scss css/style.css --watch"
     },
     "author": "Mohammadreza-fatemi",
     "license": "ISC",

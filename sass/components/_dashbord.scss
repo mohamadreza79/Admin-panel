@@ -1,0 +1,11 @@
+.dashbord {
+    padding: 68px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 150px);
+    &__item {
+        border: 1px solid black;
+        padding: 10px;
+        text-align: center;
+    }
+}
